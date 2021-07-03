@@ -81,11 +81,12 @@ WSGI_APPLICATION = 'sidestate.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'sidbase',
         'USER': 'postgres',
         'PASSWORD': 'tmkbcccc',
-        'HOST': 'localhost'
+        'HOST': '192.168.1.37',
+        'PORT':'6122',
 
     }
 }
