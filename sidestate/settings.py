@@ -85,8 +85,8 @@ DATABASES = {
         'NAME': 'sidbase',
         'USER': 'postgres',
         'PASSWORD': 'tmkbcccc',
-        'HOST': '192.168.1.37',
-        'PORT':'6122',
+        'HOST': 'localhost',
+        'PORT':'5432',
 
     }
 }
